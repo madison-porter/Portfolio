@@ -23,6 +23,7 @@ h1, h3, p {
 
 .jumbotron {
     margin-top: 48px;
+    margin-right: 25%;
 }
 
 #end {
@@ -30,33 +31,28 @@ h1, h3, p {
 }
 
 .lead{
-    margin-right: 25%;
     margin-bottom: 96px;
 }
 
-.btn {
-    padding: 0;
-}
+
 
 .btn-primary {
     background-color: #f9f7f4;
     color: #474747;
-    border: none;
+    border-color: #474747;
+    border-radius: 0;
 }
 
 .btn:hover {
-    background-color: #f9f7f4;
-    color: #474747;
+    background-color: #474747;
+    color: #f9f7f4;
 }
 
 .customBtn:not(:disabled):not(disabled):active {
-    background-color: #f9f7f4;
-    color: #474747;
+    background-color: #474747;
+    color: #f9f7f4;
 }
 
-.arrow {
-    padding-left: 16px;
-}
 
 .container {
     margin-right: 25%;
@@ -116,12 +112,6 @@ a{
 
 @media only screen and (max-width: 1000px) {
     .headshot {
-        display: none;
-    }
-}
-
-@media only screen and (max-width: 515px) {
-    .arrow {
         display: none;
     }
 }

@@ -1,5 +1,3 @@
-console.log (hi);
-
 $("#about").on({mouseenter: function (){
     $("#about").css({
         "font-weight":"bold"
@@ -20,6 +18,19 @@ $("#resume").on({mouseenter: function (){
 },
     mouseleave: function () {
         $ ("#resume").css ({
+            "font-weight":"normal"
+        });
+    }
+
+});
+
+$("#contact").on({mouseenter: function (){
+    $("#contact").css({
+        "font-weight":"bold"
+    });
+},
+    mouseleave: function () {
+        $ ("#contact").css ({
             "font-weight":"normal"
         });
     }
