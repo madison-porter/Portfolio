@@ -110,6 +110,11 @@ a{
     text-decoration: none;
 }
 
+.pageTitle {
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
 @media only screen and (max-width: 1000px) {
     .headshot {
         display: none;
