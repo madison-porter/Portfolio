@@ -45,11 +45,13 @@ h1, h3, p {
 
 .btn:hover {
     background-color: #474747;
+    border-color: #474747;
     color: #f9f7f4;
 }
 
 .customBtn:not(:disabled):not(disabled):active {
     background-color: #474747;
+    border-color: #474747;
     color: #f9f7f4;
 }
 
