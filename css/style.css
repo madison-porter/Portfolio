@@ -1,4 +1,5 @@
 body {
+    font-family: 'Lora', serif;
     font-family: 'Poppins', sans-serif;
     background-color: #f9f7f4;
     color: 474747;
@@ -17,6 +18,17 @@ h1, h3, p {
     color: #474747;
 }
 
+.navbar-brand {
+    font-family: Lora;
+}
+
+.navbar-brand:hover {
+    color: #474747;
+}
+
+#footerInitials {
+    font-family: Lora;
+}
 
 .navbar-collapse {
     justify-content: flex-end;
@@ -34,7 +46,6 @@ h1, h3, p {
 .lead{
     margin-bottom: 96px;
 }
-
 
 
 .btn-primary {
