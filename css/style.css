@@ -26,6 +26,7 @@ h1, h3, p {
     color: #474747;
 }
 
+
 #footerInitials {
     font-family: Lora;
 }
@@ -35,7 +36,7 @@ h1, h3, p {
 }
 
 .jumbotron {
-    margin-top: 48px;
+    margin-top: 32px;
     margin-right: 25%;
 }
 
@@ -44,7 +45,8 @@ h1, h3, p {
 }
 
 .lead{
-    margin-bottom: 96px;
+    margin-bottom: 48px;
+    font-style: italic;
 }
 
 
@@ -129,6 +131,18 @@ a{
     margin-bottom: 48px;
 }
 
+.link {
+    text-decoration: underline;
+    color: #474747;
+}
+
+.link:hover {
+    font-weight: 700;
+}
+
+.contact {
+    padding-right: 32px;
+}
 @media only screen and (max-width: 1000px) {
     .headshot {
         display: none;
